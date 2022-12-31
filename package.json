@@ -10,6 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/mattdanielbrown/t2t.git"
   },
+  "keywords": ["temperature","conversion","celsius","fahrenheit"],
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
   "author": "Matt Daniel Brown <mattdbrown@protonmail.com> (https://mattdbrown.com/)",
   "license": "MIT",
   "bugs": {
