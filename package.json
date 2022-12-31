@@ -1,0 +1,35 @@
+{
+  "name": "t2t",
+  "version": "0.0.1",
+  "description": "Temperature conversion tool in Node.js (as an NPM package).",
+  "main": "index.js",
+  "module": "main.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattdanielbrown/t2t.git"
+  },
+  "keywords": [
+    "temperature",
+    "temp",
+    "convert",
+    "conversion",
+    "celcius",
+    "fahrenheit"
+  ],
+  "author": "Matt Daniel Brown <mattdbrown@protonmail.com> (https://mattdbrown.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattdanielbrown/t2t/issues"
+  },
+  "homepage": "https://github.com/mattdanielbrown/t2t#readme",
+  "dependencies": {
+    "esm": "latest"
+  },
+  "devDependencies": {
+    "ava": "latest",
+    "xo": "^0.44.0"
+  }
+}
