@@ -1,7 +1,5 @@
 #!/usr/bin/env node
-
 'use strict';
-
 
 const celsius = (fahrenheit) => {
 	return ((fahrenheit - 32) * (5 / 9));
